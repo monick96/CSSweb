@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#header1{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    border: 1px solid rgb(82, 9, 39);
+    color:white;
+    margin-top: 10px;
+    background-color: rgb(8, 8, 8);
+    background-size: contain;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+/* start menu section*/
+#header2{
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ul{
+    list-style: none;
+    
+}
+#menu li a {
+    background-color: black;
+    color: whitesmoke;
+    width:200px;
+    height: auto;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-size: contain;
+    display: block;
+    border: 1px solid rgb(82, 9, 39);
+}
+
+#menu li a:hover {
+    background-color: rgb(96, 72, 110);
+}
+
+#menu >li{
+    float: left;
+}
+
+#menu li ul {
+    display:none ;
+    position: absolute;
+    min-width: 140px;
+}
+
+#menu li:hover > ul {
+    display: block;
+}
+
+/*end menu section*/
+
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    min-height: 500px;
+}
+
+h2{
+    color:white;
+    margin: 5px;
+    padding: 6px;
+    background-color: rgb(8, 8, 8);
+    background-size: contain;
+    display: inline-block;
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(82, 9, 39) ;
+}
+
+.article{
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom:15px ;
+    border-bottom: 1px solid black;
+}
+.article:first-child{
+    padding-top: 10px;
+}
+.article p{
+    font-size: larger;
+    margin-bottom: 10px;
+
+}
+
+#square {
+    list-style-type: square;
+    padding-left: 25px;
+    font-size: large;
+    
+}
+
+#square>li {
+    margin-bottom: 10px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    min-height: 500px;
+
+}
+
+.foot{
+    color:white;
+    text-align: center;
+    height: 50px;
+    line-height: 60px;
+    margin: 10px;
+    background-color: rgb(124, 116, 116);
+    border-radius: 10px;
+   
+}
+.foot>div {
+    float: left;
+    margin-left: 550px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#face{
+    margin-top: 11px;
+    margin-left: 15px;
+    
+
+}
+
+#git{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+
